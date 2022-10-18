@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pembelian</title>
+</head>
+<body>
+   <fieldset style="background-color: rgb(206, 201, 201);">
+    <fieldset style="background-color: rgb(224, 190, 190);">
+        <table>
+            <tr>
+                <td style="width: 240px;"><a href="">Home    |</a></td>
+                <td style="width: 240px;"><a href="">Generate Link   |</a></td>
+                <td style="width: 240px;"><a href="">Transaction History   |</a></td>
+                <td style="width: 240px;"><a href="">Policy    |</a></td>
+                <td style="width: 240px;"><a href="">Logout    |</a>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <img style="width: 240px;" src="sapi.jpg" alt="">
+    <table>
+        <tr>
+            <td>
+                Title Here
+            </td>
+            <td>:</td>
+            <td>Cows $750.000</td>
+        </tr>
+        <tr>
+            <td>
+                Description
+            </td>
+            <td>:</td>
+            <td>
+               Age: 4TH
+               Type: female
+               Condition: smooth
+            </td>
+        </tr>
+         <tr>
+            <td>
+                Total Amount 
+            </td>
+            <td>:</td>
+            <td>
+                $750.000
+            </td>
+         </tr>
+         <tr>
+            <td>
+                Pay To
+            </td>
+            <td>:</td>
+            <td>
+                321-546-764-0
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="Payment">Payment Type</label>
+                <td>:</td>
+                <td>
+                    <select name="bank" id="bank">
+                        <option value="BJB">BJB</option>
+                        <option value="bri">BRI</option>
+                        <option value="bni">BNI</option>
+                        <option value="visa">VISA</option>
+                    </select>
+                </td>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="account">Account Holder</label>
+            </td>
+            <td>:</td>
+            <td>
+            <input type="account" name="account" id="account">
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="account">Account Number</label>
+                <td>:</td>
+                <td>
+                    <input type="account" name="account" id="account">
+                    <small style="color: rgb(118, 2, 2);">
+                        <br><input type="checkbox" name="account[]" value="phone" id="phone">
+                        <label for="phone">Send to Mobile Phone</label>
+                        <br><input type="checkbox" name="account[]" value="email" id="email">
+                        <label for="email">Send to Email</label>
+                    </small>
+                </td>
+            </td>
+         </tr>
+          <tr>
+            <td>
+                <label for="phone">Send to Mobile Phone</label>
+            </td>
+            <td>:</td>
+            <td>
+             <input type="number" name="phone" id="phone">   
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="email">send to Email</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="email" id="email">
+            </td>
+          </tr>
+    </table>
+    <br>
+    <input style="background-color: pink;" type="submit" value="pay using quid link">
+   </fieldset>  
+</body>
+</html>
