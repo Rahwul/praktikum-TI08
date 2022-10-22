@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Profile Page
+        </legend>
+        <!-- profil -->
+        <div style="display: flex;">
+            <aside>
+                <img src="ahay.png" alt="Profile Pict" width="250">
+            </aside>
+            <article style="margin-left: 50px;">
+                <h1>Profile Name</h1>
+                <b>
+                <section>Nama : Rahwul Ihsan</section>
+                <section style="margin-top: 20px;">NIM : 0110222083</section>
+                <section style="margin-top: 20px;">Rombel : TI-08</section>
+                <section style="margin-top: 20px;">Alamat : KP.Kebon Kelapa RT.02 RW.04 </section>
+                <section style="margin-top: 20px;">Email : <a href="mailto:rahwul.ihsan20@gmail.com">rahwul.ihsan20@gmail.com</a></section>
+                <section style="margin-top: 20px;">Nomor Telpon : <a href="081286403621" target="_blank" style="color: #000;">0812-8640-3621</a></section>
+                </b>
+            </article>
+        </div>
+
+        <!-- deskripsi diri -->
+        <h4 style="text-align: left;">
+           Halo!!!
+           Perkenalkan nama saya Rahwul ihsan, Bisa di panggil Rahwul,ul atau wul , saya dari Bogor tinggi badan saya 155 
+           hobi saya futsal dan lain lain saya bercita cita agar menjadi mahluk yang berguna untuk bangsa hokage dan negara
+           saya lulusan dari SMAIT BAITUSSALAM BOGOR.
+        </h4>
+        <h4 style="text-align: left;">
+            mrhban!!!
+            aidkhul asmi rahul ahsan yumkinukum munadatay rahwwl awwl awwl ana min bukur tuli 155
+            hiwayati hi kurat alsaalat waghayruha , 'atmah 'an 'akun mkhlwqan mfydan li'umat alhukajy walwatan
+            laqad takharajt min SMAIT BAITUSSALAM BOGOR.
+        </h4>
+
+        <footer>
+        <div style="display: flex; justify-content: space-evenly ;">
+        <!-- video -->
+        <iframe width="350" height="250" src="https://www.youtube.com/embed/LwuHav8q8_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <fieldset>
+            <img src="foto1.jpeg" alt="foto" width="60">
+            <img src="foto2.jpeg" alt="foto" width="60">
+            <aside>
+                <img src="foto3.jpeg" alt="foto" width="60">
+                <img src="foto4.jpeg" alt="foto" width="60">
+            </aside>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lampiran</legend>
+            
+            <a href="logo nf.jfif " download="logo nf.jfif">Download logo nf.jfif</a>
+        </fieldset>
+        </div>
+        </footer>
+    </fieldset>
+</body>
+</html>
